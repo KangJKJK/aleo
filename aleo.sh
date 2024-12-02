@@ -81,10 +81,10 @@ if [ "$option" == "1" ]; then
             sudo apt-get install -y nvidia-cuda-toolkit
         fi
 
-        read -p "윈도우라면 파워셸을 관리자권한으로 열어서 다음 명령어들을 입력하세요"
         echo "wsl --set-default-version 2"
         echo "wsl --shutdown"
         echo "wsl --update"
+        read -p "윈도우라면 파워셸을 관리자권한으로 열어서 위 명령어들을 입력하세요"
     
         # 사용자 입력 받기
         read -p "GPU 종류를 선택하세요 (1: NVIDIA, 2: AMD): " gpu_choice
