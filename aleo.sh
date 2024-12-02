@@ -8,7 +8,7 @@ NC='\033[0m' # 색상 초기화
 # 초기 선택 메뉴
 echo -e "${YELLOW}옵션을 선택하세요:${NC}"
 echo -e "${GREEN}1: Aleo 노드 새로 설치${NC}"
-echo -e "${GREEN}2: Aleo 노드 삭제$${NC}"
+echo -e "${GREEN}2: Aleo 노드 삭제${NC}"
 read -p "선택 (1, 2): " option
 
 if [ "$option" == "1" ]; then
